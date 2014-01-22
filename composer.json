@@ -1,0 +1,48 @@
+{
+    "name": "cygnus/doctrine-form-generator-bundle",
+    "description": "Symfony2 bundle integrating DoctrineFormGenerator library",
+    "keywords": [
+    	"doctrine2",
+    	"form",
+    	"generator",
+    	"bundle"
+    ],	
+    "require": {
+        "php": ">=5.3.2",
+        "doctrine/common": ">=2.2,<2.5-dev",
+        "cygnus/doctrine-form-generator": "dev-master"
+    },
+    "require-dev": {
+        "doctrine/mongodb": ">=1.0.3",
+        "doctrine/mongodb-odm": ">=1.0.0-BETA9",
+        "doctrine/orm": ">=2.4.0-RC1",
+        "doctrine/common": ">=2.4.0-RC3",
+        "doctrine/dbal": ">=2.4.0-RC1",
+        "symfony/yaml": "2.3.1"
+    },
+    "support": {
+	"issues": "https://github.com/cygnusb2b/DoctrineFormGenerator/issues",
+	"source": "https://github.com/cygnusb2b/DoctrineFormGenerator"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Josh Worden",
+            "email": "josh.worden@cygnus.com"
+        }
+    ],
+    "suggest": {
+        "doctrine/mongodb": ">=1.0.1",
+        "doctrine/mongodb-odm": ">=1.0.0-BETA7",
+        "doctrine/orm": ">=2.3.2",
+        "doctrine/dbal": ">=2.3.2"
+    },
+    "autoload": {
+        "psr-0": { "Cygnus\\DoctrineFormGeneratorBundle": "" }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        }
+    }
+}
